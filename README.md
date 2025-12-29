@@ -1,6 +1,6 @@
 # Fitbit Sleep, Activity, and Heart Rate – Science Fair 2025
 
-## 👋 Project Overview
+## Project Overview
 
 This project uses **real Fitbit data** to explore how **sleep**, **daily activity**, and **heart rate** are connected.
 
@@ -10,7 +10,7 @@ The data comes from adults who wore Fitbits over about **two months** in 2016.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 Main notebooks in this repo:
 
@@ -30,7 +30,7 @@ There is also a `data/` folder that holds the Fitbit CSV files and a `visuals/` 
 
 ---
 
-## 📊 Data Used
+## Data Used
 
 The project mainly uses these Fitbit exports:
 
@@ -47,9 +47,9 @@ Not every person has every type of data. That’s important for how strong the r
 
 ---
 
-## 📘 Notebook Summaries
+## Notebook Summaries
 
-### 1️⃣ `EDA.ipynb` – Getting to Know the Fitbit Data
+### `EDA.ipynb` – Getting to Know the Fitbit Data
 
 This notebook:
 
@@ -76,7 +76,7 @@ Only a small group has **all three**, so any results using heart rate must be tr
 
 ---
 
-### 2️⃣ `Good_Sleep_and_Next_Day_RHR.ipynb`
+### `Good_Sleep_and_Next_Day_RHR.ipynb`
 
 *Do people who sleep longer have lower resting heart rate the next day?*
 
@@ -109,7 +109,7 @@ In this dataset, **sleeping longer did *not* clearly lower next-day resting hear
 
 ---
 
-### 3️⃣ `Very_Active_Minutes_Have_Better_Sleep.ipynb`
+### `Very_Active_Minutes_Have_Better_Sleep.ipynb`
 
 *Do people who exercise more sleep longer?*
 
@@ -151,7 +151,7 @@ The small differences we see could easily be **random**, so the hypothesis is **
 
 ---
 
-### 4️⃣ `Weekend_vs_Weekday_Behavior.ipynb`
+### `Weekend_vs_Weekday_Behavior.ipynb`
 
 *Do people sleep more and move less on weekends?*
 
@@ -212,7 +212,7 @@ But it **does not** support the activity part:
 
 ---
 
-## 🧠 What This Project Shows Overall
+## What This Project Shows Overall
 
 Across all notebooks:
 
@@ -231,7 +231,7 @@ Across all notebooks:
 
 ---
 
-## 🧪 How to Run the Notebooks
+## How to Run the Notebooks
 
 1. Create and activate a Python virtual environment.
 
@@ -260,7 +260,7 @@ Across all notebooks:
 
 ---
 
-## ✅ Plain-English Summary
+## Plain-English Summary
 
 This project is a science-fair-style investigation using Fitbit data. It asks:
 
